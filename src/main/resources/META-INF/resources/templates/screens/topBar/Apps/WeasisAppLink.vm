@@ -1,0 +1,10 @@
+<!-- BEGIN xnat-weasis-plugin templates/screens/topBar/Apps/WeasisAppLink.vm -->
+
+<!-- allowGuest: false -->
+<li class="weasis-app-link">
+    <a href="/weasis/" data-qa="apps-weasis-link">
+        Weasis Launcher
+    </a>
+</li>
+
+<!-- END xnat-weasis-plugin templates/screens/topBar/Apps/WeasisAppLink.vm -->

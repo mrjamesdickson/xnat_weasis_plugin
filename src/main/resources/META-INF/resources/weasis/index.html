@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XNAT Weasis Launcher</title>
+    <style>
+        body { font-family: Helvetica, Arial, sans-serif; margin: 0; padding: 2rem; background:#f5f7fb; color:#0f172a; }
+        h1 { margin-top:0; }
+        section { background:#fff; padding:1.5rem; border-radius:8px; box-shadow:0 2px 8px rgba(15,23,42,0.08); }
+        code { background:#f1f5f9; padding:0.15rem 0.3rem; border-radius:4px; }
+        ol { padding-left:1.2rem; }
+    </style>
+</head>
+<body>
+<section>
+    <h1>Weasis Launcher</h1>
+    <p>The XNAT Weasis plugin exposes secure launch endpoints that allow you to open imaging sessions in the Weasis desktop viewer.</p>
+    <h2>How to launch</h2>
+    <ol>
+        <li>Select a session inside XNAT and click <strong>View in Weasis</strong>.</li>
+        <li>XNAT generates a <code>weasis://</code> link that passes authentication and study identifiers straight to the viewer.</li>
+    </ol>
+    <p>Developers can also call the REST endpoint at <code>/xapi/weasis/launch/projects/{projectId}/sessions/{sessionId}</code>.</p>
+</section>
+</body>
+</html>
